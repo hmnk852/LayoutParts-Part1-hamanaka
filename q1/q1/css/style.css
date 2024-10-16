@@ -1,2 +1,95 @@
 @charset "UTF-8";
 /* 回答はここから */
+.q1 {
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #a4e4f1;
+}
+.white-box {
+  width: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+  background-color: #fff;
+}
+.text-box {
+  text-align: center;
+}
+.text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #a4b3e9;
+}
+.q2 {
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #a4e4f1;
+}
+.margin-white-box {
+  width: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+  background-color: #fff;
+}
+.margin-text {
+  text-align: center;
+  padding: 10px;
+  width: 90px;
+  margin: 0 auto;
+  background-color: #a4b3e9;
+}
+.q-table {
+  display: table;
+}
+.q1--perimeter {
+  width: 250px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-color: #a4e4f1;
+}
+.bluebox {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.table-text {
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+}
+.q-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-text {
+  padding: 10px;
+  background-color: #fff;
+}
+.q1--position {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: #a4e4f1;
+}
+.q-position {
+  position: relative;
+}
+.container {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: top;
+}
+.p-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: #a4b3e9;
+}

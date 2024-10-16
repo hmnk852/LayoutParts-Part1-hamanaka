@@ -1,1 +1,118 @@
 @charset "UTF-8";
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebyside-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Verticalrow {
+  display: flex;
+  flex-direction: column;
+}
+
+.Verticalrow-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.not-turnback {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.turnback {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.turnback-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.horizontaldirection-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.horizontaldirection-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.horizontaldirection-center {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontaldirection-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontaldirection-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+}
+
+.grid-layout2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+.grid-layout3  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  grid-template-rows: 200px 200px;
+  margin-top: 20px;
+}
+
+.grid-layoutpuzzule {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.item {
+  width: 65px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.grid-item {
+  padding: 10px;
+  background: #00bbdd;
+  color: #fff;
+}
+
+.redbox {
+  grid-column: 1 / 3;
+  background: #dd0700;
+}
+
+.greenbox {
+  grid-row: 2 / 4;
+  background: #0bdd00;
+}
+
+.yellowbox {
+  grid-column: 2 / 4;
+  background: #d9dd00;
+}
