@@ -7,11 +7,17 @@
 .list-card {
   list-style: none;
   width: 200px;
-  margin-left: 30px;
   margin-right: 30px;
+  margin-left: 30px;
   outline: 10px solid #655;
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   padding: 10px;
   background: #d2b48c;
+}
+.list-card:first-child {
+  margin-left: 0px;
+}
+.list-card:last-child {
+  margin-right: 0px;
 }
